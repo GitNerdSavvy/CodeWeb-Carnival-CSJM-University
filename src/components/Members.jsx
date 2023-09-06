@@ -10,6 +10,7 @@ import s6 from "../assets/member/shiv.png"
 import s7 from "../assets/member/aman.png"
 import s8 from "../assets/member/abhi.png"
 import s9 from "../assets/member/arun.png"
+import s10 from "../assets/member/Anika.png"
 
 export default function Members() {
 
@@ -67,7 +68,7 @@ export default function Members() {
               <div className="testi-comment">
                 <p>
                  
-                 <b>Role: </b>President-Open Source Club<br></br><b>Skills: </b>Java<br></br>
+                 <b>Role: </b>President-Open Source Club<br></br><b>Skills: </b>Python<br></br>
                  <b>Experience: </b>Member Dronotics<br></br>
                  
                 </p>
@@ -76,6 +77,30 @@ export default function Members() {
               <div className="client-info">
                 <img src={s9} alt="no.."></img>
                 <h5>Arun Sharma</h5>
+                <p>MCA-2nd Year</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          
+         {/* Anika */}
+          <div className="col-lg-4">
+            <div className="testi-item">
+              <div className="testi-comment">
+                <p>
+                 
+                 <b>Role: </b>President-Open Source Club<br></br><b>Skills: </b>Frontend Developer<br></br>
+                 <b>Projects: </b>Weather Forecasting<br></br>
+                 
+                </p>
+               
+              </div>
+              <div className="client-info">
+                <img src={s10} alt="no.."></img>
+                <h5>Anika Pandey</h5>
                 <p>MCA-2nd Year</p>
               </div>
             </div>
@@ -131,7 +156,7 @@ export default function Members() {
               <div className="testi-comment">
                 <p>
                  
-                <b>Role: </b>President-Python Hunters<br></br><b>Skills: </b>Python Developer<br></br>
+                <b>Role: </b>Vice President-Python Hunters<br></br><b>Skills: </b>Python Developer<br></br>
                  <b>Project: </b>Blog Website, Image Generator AI<br></br>
                  
                 </p>
@@ -153,8 +178,8 @@ export default function Members() {
               <div className="testi-comment">
                 <p>
                  
-                 <b>Role: </b>Vice President-Open Source Club<br></br><b>Skills: </b>Developer<br></br>
-                 <b>Experience: </b>Member Dronotics<br></br>
+                 <b>Role: </b>President-Python Hunters<br></br><b>Skills: </b>C#, JAVA, Unity<br></br>
+                 <b>Experience: </b>Mini Militia Clone<br></br>
                  
                 </p>
                

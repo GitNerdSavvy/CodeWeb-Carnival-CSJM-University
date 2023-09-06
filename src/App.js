@@ -5,6 +5,8 @@ import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Footer } from "./components/Footer";
 import {Club } from "./components/Club";
+import AboutUs from './components/About';
+// import ContactUs from './components/ContactUs';
 import Members from './components/Members';
 
 
@@ -19,18 +21,18 @@ function disableRightClick(event) {
 
 function App() {
 
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      if (e.key === 'F12') {
-        e.preventDefault();
-      }
-    };
-    window.addEventListener('keydown', handleKeyDown);
+  // useEffect(() => {
+  //   const handleKeyDown = (e) => {
+  //     if (e.key === 'F12') {
+  //       e.preventDefault();
+  //     }
+  //   };
+  //   window.addEventListener('keydown', handleKeyDown);
 
-    return () => {
-      window.removeEventListener('keydown', handleKeyDown);
-     };
-  },[]);
+  //   return () => {
+  //     window.removeEventListener('keydown', handleKeyDown);
+  //    };
+  // },[]);
 
 
   useEffect(() => {
@@ -48,6 +50,8 @@ function App() {
       <Banner />
       <Club/>
       <Members/>
+      {/* <ContactUs/> */}
+      <AboutUs/>
       <Footer />
     </div>
   );
